@@ -4,8 +4,8 @@ import { useState } from "react";
 export default function Home() {
   const products = [
     { id: 1, src: "/product1.jpg", name: "Running Shoes", price: 89.99 },
-    { id: 2, src: "/product2.jpg", name: "Gym Bag", price: 45.0 },
-    { id: 3, src: "/product3.jpg", name: "Fitness Tracker", price: 120.0 }
+    { id: 2, src: "/product2.jpg", name: "Caps", price: 45.0 },
+    { id: 3, src: "/product3.jpg", name: "T shirts", price: 120.0 }
   ];
 
   const [cart, setCart] = useState([]);
